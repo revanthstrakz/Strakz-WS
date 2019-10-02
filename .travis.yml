@@ -17,5 +17,4 @@ before_install:
   - chmod +x ./VirtualApp/gradlew
 
 script:
-  - cd VirtualApp
   - ./gradlew assembleRelease
